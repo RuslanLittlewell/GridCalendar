@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html, #root, .app {
+  height: 100%;
+}
+.main-layout {
+  height: 100%;
+  .content {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    height: 100%;
+  }
+
+  &__left-panel {
+    background-color: #202123;
+  }
+
+  &__work-area {
+    background-color: #444654;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+}
